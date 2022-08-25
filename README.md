@@ -6,10 +6,10 @@ During this lab, you'll have the opportunity to explore and understand foundatio
 These services are the foundation of networking architecture inside of AWS and cover concepts such as infrastructure, design, routing, and security.
 
 ## **Solution**
-Log in to the live AWS environment using the credentials provided from ordering the [RHPDS: Open Environments for AWS] (https://red.ht/openenv). 
+Log in to the live AWS environment using the credentials provided from ordering the [RHPDS: Open Environments for AWS](https://red.ht/openenv). 
 
-You can also refer to this document on Contenthub [Getting Started With AWS] (https://redhat.highspot.com/items/60229c76b7b7396f2c3906ae)
-A quick start guide to get your first RHEL Instance up and running; using mostly aws cli commands.
+You can also refer to this document on Contenthub: [Getting Started With AWS](https://redhat.highspot.com/items/60229c76b7b7396f2c3906ae) --
+"A quick start guide to get your first RHEL Instance up and running"; *using mostly aws cli commands*.
 
 This lab provides much of the same experience, only using the AWS web interface.
 
@@ -75,7 +75,7 @@ Make sure you're in the N. Virginia (us-east-1) region throughout the lab.
 1.	Once the instance has a *Running* state, select the box next to it.
 2.	Click **Connect** at the top.
 3.	In the *EC2 Instance Connect* section, click **Connect**.
-  - This will open a new browser tab showing a command line interface.
+	- This will open a new browser tab showing a command line interface.
 
 ## **Conclusion**
 Congratulations on successfully completing this hands-on lab!
