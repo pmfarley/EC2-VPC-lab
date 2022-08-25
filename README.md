@@ -13,7 +13,7 @@ You can also refer to this document on Contenthub: [Getting Started With AWS](ht
 
 This lab provides much of the same experience, only using the AWS web interface.
 
-Make sure you're in the N. Virginia (us-east-1) region throughout the lab.
+Make sure you're in the N. Virginia (**us-east-1**) region throughout the lab.
 
 ## **Create a VPC**
 1. Navigate to **VPC** > **Your VPCs**.
@@ -46,13 +46,13 @@ Make sure you're in the N. Virginia (us-east-1) region throughout the lab.
 10.	Click **Attach internet gateway**.
 11.	Click **Route Tables** in the left-hand menu.
 12.	Click **Create route table**, and set the following values:
-  - *Name*: **publicRT**
-  - *VPC*: **my-vpc**
+	- *Name*: **publicRT**
+	- *VPC*: **my-vpc**
 13.	Click **Create route table**.
 14.	On the next screen, click **Edit routes**.
 15.	Click **Add route**, and set the following values:
-  - Destination: **0.0.0.0/0**
-  - Target: **Internet Gateway**, **my-internet-gateway**
+	- Destination: **0.0.0.0/0**
+	- Target: **Internet Gateway**, **my-internet-gateway**
 16.	Click **Save changes**.
 17.	Click the **Subnet associations** tab.
 18.	Click **Edit subnet associations**.
